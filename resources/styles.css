@@ -1,0 +1,126 @@
+
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: white;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and Navigation */
+.nav-header {
+    display: flex;
+    height: 90px;
+    width: 100%;
+    border-bottom: .125rem solid grey;
+}
+
+.logo-header-box {
+    width: 18%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-header-box p {
+    font-size: .75rem;
+}
+
+.logo-header img {
+    padding-top: 10px;
+    height: 30px;
+    width: auto;
+}
+
+.nav-central {
+    display: flex;
+    width: 64%;
+    justify-content: center;
+}
+
+
+.nav-central ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+  }
+
+
+.nav-central ul li {
+    display: flex;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.nav-central ul li a {
+    text-decoration: none; 
+    color: black;
+  }
+
+.nav-central ul li a:hover {
+    text-decoration: none; 
+    color: #099700;
+  }
+
+
+
+.nav-action-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.nav-action-buttons button {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+    height: 30px;
+    text-align: center; 
+    line-height: 20px;
+    box-shadow: none;
+}
+
+.get-started-header {
+    background-color: rgba(9, 151, 0, 0.8);
+    border-color: rgba(9, 151, 0, 0.8);
+    border-radius: 8%;
+    text-align: center;
+    color: white;
+}
+
+.login-header {
+    background-color: white;
+    border-color: #0CB4E4;
+    border-radius: 8%;
+}
+
+.get-started-header:hover {
+    background-color:#099700;
+    border-color: #099700;
+}
+
+.login-header:hover {
+    background-color: #0CB4E4;
+    color: white;
+}
+
+/* Banner */
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
