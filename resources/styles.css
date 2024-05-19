@@ -175,43 +175,93 @@ body {
 
 /* Flexible Payment Options for All Business Types */
 
-/*
-.flexible-options {
-    margin-bottom: 90px;
-}
-*/
-
-.flexible-options-container {
-    display: flex;
-}
-
 .flexible-options h2 {
     text-align: center;
+     padding: 20px;
+    padding-bottom: 20px;
+}
+
+.flexible-options-card-title {
+    font-weight: bold;
+}
+
+.items {
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+
+
+/* Merchant Solutions */
+.merchant-solutions {
+    display: flex;
+    background-color: yellow;
+    height: 900px;
+}
+
+.merchant-solutions a {
+    color: rgba(9, 151, 0, 0.8);
+}
+
+.merchant-solutions-section-title {
+    text-align: center;
+    background-color: ;
+    justify-content: center;
+    align-content: center;
+    width: 1/3%;
+}
+
+
+/* Merchant Solutions Panel Elements */
+.merchant-solutions-panel-elements-title {
+    font-weight: bold;
+}
+
+
+/* Merchant Solutions Left Panel */ 
+.merchant-solutions-left-panel {
+    background-color: teal;
+    width: 1/3;
+}
+
+.merchant-solutions-left-panel-item {
+    border: 2px solid red;
     padding: 20px;
-    margin-bottom: 20px;
-  }
-
-
-.compatability {
-    display: flex;
-    justify-content: auto;
-    flex-direction: row;
-    text-align: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 450px;
 }
 
-.fees {
-    display: flex;
-    justify-content: auto;
-    flex-direction: row ;
-    text-align: center;
-    flex-wrap: wrap;
+.merchant-solutions-left-panel-item-1 {
+    border: 2px orange solid;
+    width: 75%;
+    align-items: center;
 }
 
-.quick-setup {
-    display: flex;
-    justify-content: auto;
-    flex-direction: row;
-    text-align: center;
-    flex-wrap: wrap;
-    }
+/* Merchant Solutions Right Panel */
+.merchant-solutions-right-panel {
+    background-color: ;
+    width: 1/3;
+}
+
+.merchant-solutions-right-panel-item {
+    border: 2px solid red;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
