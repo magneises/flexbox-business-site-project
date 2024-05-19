@@ -175,9 +175,13 @@ body {
 
 /* Flexible Payment Options for All Business Types */
 
+.flexible-options {
+    padding-bottom: 90px;
+}
+
 .flexible-options h2 {
     text-align: center;
-     padding: 20px;
+    padding: 20px;
     padding-bottom: 20px;
 }
 
@@ -195,8 +199,14 @@ body {
 /* Merchant Solutions */
 .merchant-solutions {
     display: flex;
-    background-color: yellow;
-    height: 900px;
+    background-color: ;
+    height: 1200px;
+    padding-bottom: 90px;
+}
+
+.merchant-solutions-icons {
+    height: 45px;
+    width: 45px;
 }
 
 .merchant-solutions a {
@@ -204,13 +214,21 @@ body {
 }
 
 .merchant-solutions-section-title {
-    text-align: center;
+    text-align: start;
     background-color: ;
+    display: flex;
     justify-content: center;
-    align-content: center;
     width: 1/3%;
+    padding-top: 250px;
 }
 
+.merchant-solutions-text {
+    background-color: ;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
 
 /* Merchant Solutions Panel Elements */
 .merchant-solutions-panel-elements-title {
@@ -220,34 +238,100 @@ body {
 
 /* Merchant Solutions Left Panel */ 
 .merchant-solutions-left-panel {
-    background-color: teal;
+    background-color: ;
     width: 1/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
 
 .merchant-solutions-left-panel-item {
-    border: 2px solid red;
+    border: ;
     padding: 20px;
     justify-content: space-between;
     height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .merchant-solutions-left-panel-item-1 {
-    border: 2px orange solid;
-    width: 75%;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    align-items: flex-start;
+    border: ;
+    width: 70%;
+    border-radius: 8%;
+    height: 400px;
+    padding: 10px 20px;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.merchant-solutions-left-panel-item-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    align-items: flex-start;
+    border: ;
+    width: 70%;
+    border-radius: 8%;
+    height: 400px;
+    padding: 10px 20px;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* Merchant Solutions Right Panel */
 .merchant-solutions-right-panel {
     background-color: ;
-    width: 1/3;
+     width: 1/3;
+     display: flex;
+     flex-direction: column;
+     justify-content: end;
+ }
+ 
+ .merchant-solutions-right-panel-item {
+     border: ;
+     background-color: ;
+     padding: 20px;
+     justify-content: space-between;
+     height: 450px;
+     display: flex;
+     align-items: end;
+     justify-content: center;
+ }
+
+.merchant-solutions-right-panel-item-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    align-items: flex-start;
+    border: ;
+    width: 70%;
+    border-radius: 8%;
+    height: 400px;
+    padding: 10px 20px;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
 }
 
-.merchant-solutions-right-panel-item {
-    border: 2px solid red;
-    padding: 20px;
-    justify-content: space-between;
+.merchant-solutions-right-panel-item-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    align-items: flex-start;
+    border: ;
+    width: 70%;
+    border-radius: 8%;
+    height: 400px;
+    padding: 10px 20px;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
 }
+
+
 
 
 
