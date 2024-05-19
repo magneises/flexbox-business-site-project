@@ -331,21 +331,139 @@ body {
     box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
 }
 
+/* Customer Reviews */
+.customer-reviews {
+    padding-bottom: 90px;
+    background-color: ;
+    width: 100%;
+    height: auto;
+    background-color: ;
+}
+
+.customer-reviews h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.customer-icons {
+    background-color: ;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.rating-icon {
+    height: 80px;
+    width: 80px;
+}
+
+.customer-icon-1 {
+    background-color: ;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 20px 20px;
+}
+
+.customer-icon-2 {
+    background-color: ;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 20px 20px;
+}
+
+.customer-icon-3 {
+    background-color: ;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 20px 20px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    border-top: .125rem solid grey;
+    background-color: orange;
+  }
 
 
+.logo-footer-div {
+    width: 18%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: ;
+    justify-content: center;
+}
+
+.logo-footer-div p {
+    font-size: .75rem;
+}
+
+.logo-footer img {
+    padding-top: 10px;
+    height: 30px;
+    width: auto;
+}
 
 
+.email-signup-footer {
+    background-color: red;
+    display: flex;
+    width: 64%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
+.email-signup-footer form {
+    background-color: yellow;
+    width: 400px;
+}
 
 
+.nav-footer {
+    background-color: ;
+    display: flex;
+    width: 18%;
+    justify-content: center;
+    align-items: center;
+}
 
+.nav-footer ul {
+    list-style: none;
+}
 
+.nav-footer a {
+    text-decoration: none;
+    color: black;
+}
 
-
-
-
-
-
-
-
+.nav-footer ul li a:hover {
+  text-decoration: none;
+  color: #099700;
+}
