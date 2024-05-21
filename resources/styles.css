@@ -406,7 +406,7 @@ body {
     height: 200px;
     width: 100%;
     border-top: .125rem solid grey;
-    background-color: orange;
+    background-color: ;
   }
 
 
@@ -431,7 +431,7 @@ body {
 
 
 .email-signup-footer {
-    background-color: red;
+    background-color: ;
     display: flex;
     width: 64%;
     flex-direction: column;
@@ -441,8 +441,41 @@ body {
 
 
 .email-signup-footer form {
-    background-color: yellow;
-    width: 400px;
+  background-color: ;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.email-signup-footer input[type="email"] {
+  width: 70%; /* Make input field wider */
+  max-width: 700px; /* Set a maximum width for larger screens */
+  padding: 15px; /* Increase padding inside the input */
+  font-size: 18px; /* Increase font size */
+  border: 2px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Round the corners */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  outline: none;
+}
+
+
+.email-signup-footer button {
+  width: 20%; /* Make button the same width as the input */
+  max-width: 500px; /* Set a maximum width for larger screens */
+  padding: 15px; /* Increase padding inside the button */
+  font-size: 18px; /* Increase font size */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Round the corners */
+  background-color: #4CAF50; /* Button background color */
+  color: white; /* Button text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+  margin-left: 10px; /* Add space between the input and button */
+}
+
+
+.email-signup-footer button:hover {
+  background-color: #45a049; /* Darken button color on hover */
 }
 
 
@@ -456,6 +489,7 @@ body {
 
 .nav-footer ul {
     list-style: none;
+    line-height: 1.5;
 }
 
 .nav-footer a {
@@ -467,3 +501,6 @@ body {
   text-decoration: none;
   color: #099700;
 }
+
+
+
